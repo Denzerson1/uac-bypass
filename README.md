@@ -30,7 +30,9 @@ Initiate fdhelper.exe
 The following checks are performed in the registry upon start of fodhelper.exe:
 
 1 - HKCU:\Software\Classes\ms-settings\shell\open\command
+
 2 - HKCU:\Software\Classes\ms-settings\shell\open\command\DelegateExecute
+
 3 - HKCU:\Software\Classes\ms-settings\shell\open\command\(default)
 Since these registry entries doesn’t exist a user can create this structure in the registry in order to manipulate fodhelper to execute a command with higher privileges bypassing the User Account Contol (UAC).
 
