@@ -25,8 +25,8 @@ Value Name: (default)
 Value Data: Path to the command or program to be executed with elevated privileges
 Usage
 
-1) Create the Registry Structure
-2) Initiate fdhelper.exe
+Create the Registry Structure
+Initiate fdhelper.exe
 The following checks are performed in the registry upon start of fodhelper.exe:
 
 1 - HKCU:\Software\Classes\ms-settings\shell\open\command
@@ -34,7 +34,7 @@ The following checks are performed in the registry upon start of fodhelper.exe:
 3 - HKCU:\Software\Classes\ms-settings\shell\open\command\(default)
 Since these registry entries doesn’t exist a user can create this structure in the registry in order to manipulate fodhelper to execute a command with higher privileges bypassing the User Account Contol (UAC).
 
-3) Remove Registry entries
+Remove Registry entries
 
 Note
 Use this script responsibly and only on systems you own or have explicit permission to modify.
